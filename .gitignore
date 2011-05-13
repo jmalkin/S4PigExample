@@ -1,0 +1,5 @@
+# Application-specific files
+applib/*
+
+# S4 and dependent libraries
+lib/*

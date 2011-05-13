@@ -1,0 +1,11 @@
+12000000	gettysburg, pa, us	abraham lincoln	1242799200000
+14000000	washington, dc, us	franklin delano roosevelt	1242799500000
+16000000	washington, dc, us	franklin delano roosevelt	1242799800000
+18000000	houston, tx	john f kennedy	1242800100000
+20000000	berlin, de	john f kennedy	1242800400000
+22000000	washington, dc, us	john f kennedy	1242800700000
+24000000	cleveland, oh, us	malcolm x	1242801000000
+26000000	washington, dc, us	martin luther king	1242801300000
+28000000	los angeles, ca, us	richard m nixon	1242801600000
+30000000	washington, dc, us	richard m nixon	1242801900000
+32000000	washington, dc, us	ronald reagan	1242802200000

@@ -1,0 +1,3 @@
+speech.txt   : id, location, speaker, time
+sentence.txt : id, speechId, text, time
+highlight.txt: sentenceId, time
