@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECT_JAR=speech01-0.3-SNAPSHOT.jar
+PROJECT_JAR=s4-example-speech01-0.3-SNAPSHOT.jar
 
 PROJECT_HOME=`pwd`/..
 S4JARDIR=${PROJECT_HOME}/lib
