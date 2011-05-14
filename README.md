@@ -23,26 +23,28 @@ Requirements
 Build Instructions
 ------------------
 
-1. Ensure you have built S4PigWrapper and collected the jars. Those
+1. Create S4PigExample/lib and S4PigExample/applib directories.
+
+2. Ensure you have built S4PigWrapper and collected the jars. Those
 belong in S4PigExample/lib.
 
-2. From your main S4 repository, build speech01:
+3. From your main S4 repository, build speech01:
       ./gradlew s4-example-speech01:jar
    and then copy
-   s4-example-apps/s4-example-speech01/lib/s4-example-speech01-0.3-SNAPSHOT.jar
+   s4-examples/speech01/build/libs/s4-example-speech01-0.3-SNAPSHOT.jar
    to S4PigExample/applib
 
-2. Modify script/run-pig.sh to ensure environment variables are properly set
+4. Modify script/run-pig.sh to ensure environment variables are properly set
       - DATAPATH should point to the path containing the data subdirectory
       - If you want script output in the log file, set LOCAL_MODE=1
 
-3. If NOT running in local mode, copy files in data to the correct
+5. If NOT running in local mode, copy files in data to the correct
 HDFS location.
       - The last PE in the data flow writes to stdout, so if you want
         to see the output locally, run in local mode.
 
-4. Go to the script directory
+6. Go to the script directory
 
       ./run-pig.sh speech02.pig
 
-5. Output log file is in speech02.pig.log
+7. Output log file is in speech02.pig.log

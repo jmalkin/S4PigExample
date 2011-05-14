@@ -21,7 +21,6 @@ fi
 
 CLASSPATH="${S4JARDIR}/s4-core-0.3-SNAPSHOT.jar:${S4JARDIR}/spring-2.5.6.jar:${S4JARDIR}/kryo-1.01.jar:${S4JARDIR}/bcel-5.2.jar:${S4JARDIR}/minlog-1.2.jar:${APPDIR}/${PROJECT_JAR}";
 
-#HADOOP_OPTS="-Dpig.usenewlogicalplan=false -t PruneColumns -Dmapred.child.ulimit=4194304 -Dmapred.job.map.memory.mb=1024 -Dmapred.job.reduce.memory.mb=1024 -Dmapred.job.queue.name=$HADOOP_QUEUE"
 HADOOP_OPTS="-Dpig.usenewlogicalplan=false -t PruneColumns -Dmapred.job.map.memory.mb=1250 -Dmapred.job.reduce.memory.mb=1250 -Dmapred.job.queue.name=$HADOOP_QUEUE"
 
 PIG_CMD="pig -useversion current $LOCAL_CMD -cp $CLASSPATH $HADOOP_OPTS -param APPPATH=$APPDIR -param S4JARPATH=$S4JARDIR -param DATAPATH=$DATAPATH $1"
