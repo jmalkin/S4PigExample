@@ -9,6 +9,9 @@ S4. It takes a sample S4 application (speech02, available through
 can be called from Pig running on a Hadoop cluster.  A sample pig
 script is also provided to demonstrate the full integration.
 
+In addition to S4, this project also depends on
+[S4PigWrapper](https://github.com/jmalkin/S4PigWrapper).
+
 Requirements
 ------------
 
