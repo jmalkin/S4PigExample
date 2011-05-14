@@ -13,7 +13,7 @@ register $S4JARPATH/minlog-1.2.jar;
 register $S4JARPATH/S4PigWrapper-0.1.jar;
 
 -- jar for our S4 application
-register $APPPATH/speech01-0.0.0.1.jar
+register $APPPATH/speech01-0.3-SNAPSHOT.jar
 
 -- data stored on grid
 %declare confpath $DATAPATH/conf
