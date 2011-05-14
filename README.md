@@ -24,13 +24,13 @@ Build Instructions
 ------------------
 
 1. Ensure you have built S4PigWrapper and collected the jars. Those
-belong in /lib.
+belong in S4PigExample/lib.
 
 2. From your main S4 repository, build speech01:
       ./gradlew s4-example-speech01:jar
    and then copy
    s4-example-apps/s4-example-speech01/lib/s4-example-speech01-0.3-SNAPSHOT.jar
-   to /applib
+   to S4PigExample/applib
 
 2. Modify script/run-pig.sh to ensure environment variables are properly set
       - DATAPATH should point to the path containing the data subdirectory
